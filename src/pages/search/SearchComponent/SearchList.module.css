@@ -1,0 +1,84 @@
+.listContainer {
+  display: flex;
+  gap: 20px;
+  border: 1px rgb(202, 187, 187) solid;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.flexDescription {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 3fr 1fr;
+  row-gap: 20px;
+}
+.listContainer img {
+  height: 200px;
+  width: 200px;
+}
+
+.descriptionContainer {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.descriptionContainer h2 {
+  color: #008cba;
+}
+
+.tag {
+  background-color: rgb(106, 146, 47);
+  display: inline-block;
+  color: white;
+  padding: 2px;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.cancel {
+  color: rgb(106, 146, 47);
+}
+.cancel :first-child {
+  font-weight: bold;
+}
+.detail {
+  justify-self: end;
+  display: grid;
+  grid-template-rows: 0.8fr 1fr 0.2fr 0.5fr;
+  width: max-content;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.rate :nth-child(1) {
+  font-weight: bold;
+}
+
+.rate :nth-child(2) {
+  background-color: rgb(4, 4, 102);
+  color: white;
+  padding: 2px;
+  display: block;
+}
+
+.price {
+  align-self: end;
+  justify-self: end;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.priceDescription {
+  font-size: 12px;
+  color: gray;
+}
+
+.btn {
+  font-weight: bold;
+}

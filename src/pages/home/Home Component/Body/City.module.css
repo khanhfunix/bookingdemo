@@ -1,0 +1,19 @@
+.city {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  padding: 10px 250px 0px 250px;
+  color: white;
+  position: relative;
+}
+
+.city img {
+  height: 200px;
+  width: 260px;
+  border-radius: 10px;
+}
+
+.cityText {
+  position: absolute;
+  bottom: 15px;
+}

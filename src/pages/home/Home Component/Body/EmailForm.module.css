@@ -1,0 +1,27 @@
+.formContainer {
+  background-color: rgb(18, 18, 107);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+
+.formContainer form input {
+  padding: 20px 200px 20px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.formContainer form label {
+  margin-left: 10px;
+}
+
+.formContainer button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.formContainer p {
+  margin-bottom: 20px;
+}
